@@ -244,7 +244,7 @@ function download(){
                 </div>
                 <div class="modal-body">
                     <textarea rows="5" id="length_finder" class="form-control" placeholder="Enter text"></textarea>
-                    <p class="help-block">Length: <span id="length_result"  style="color: green;font-weight: bold"></span></p>
+                    <p class="help-block">Length: <span id="length_result"  style="color: green;font-weight: bold"></span> <a onclick="$('#length_finder').val('').change()" class="btn btn-primary btn-xs"><i class="glyphicon glyphicon-ban-circle"></i> Clear</a></p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default btn-xs" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Close</button>

@@ -198,7 +198,7 @@ function download(){
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4><strong>Notify Me</strong></h4>
+                  <h4><strong>Notify Me</strong> <a class="btn btn-primary btn-xs pull-right" data-toggle="modal" data-target="#show_nort"><i class="glyphicon glyphicon-info-sign"></i> Show</a></h4>
                 </div>
                 <div class="modal-body">
                     <form role="form">
@@ -234,6 +234,26 @@ function download(){
             </div>
         </div>
         <!--modals notify-->
+        <!--show nort-->
+         <div class="modal fade" id="show_nort">
+            <div class="modal-dialog ">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4><strong>Notifications</strong></h4>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped" id="nort_all"></table>
+                </div>
+                <div class="modal-footer">
+                  
+                    <button type="button" class="btn btn-default btn-xs" data-dismiss="modal"><i class="glyphicon glyphicon-remove"></i> Close</button>
+                </div>
+              </div>
+            </div>
+         </div>
+                
+        <!--show nort-->
          <!--modals textlength-->
            <div class="modal fade" id="text_length">
             <div class="modal-dialog">

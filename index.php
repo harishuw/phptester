@@ -1,11 +1,11 @@
 <?php
 /*
 **************************************
-******PHP Runner 1.5.0****************
+******PHP Tester 1.5.0****************
 ******Created by Harish U Warrier*****
 ******Created on 23-01-2015***********
 ******Modified on 05-07-2015**********
-******phprunner@jformslider.com*******
+******phptester@jformslider.com*******
 ******php.jformslider.com*************
 **************************************
 */
@@ -110,16 +110,32 @@ function download(){
         <nav class="navbar navbar-default">
           <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">PHP Runner</a>
+                <a class="navbar-brand" href="#">PHP Tester</a>
             </div>
             <div>
               <ul class="nav navbar-nav">
                 <li class=""><a href="#" data-toggle="modal" data-target="#about_us">Help</a></li>
                 <li><a href="#" id="phpinfo">PHP info</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#notify_me">Notify me</a></li>
-                <li><a href="#" data-toggle="modal" data-target="#text_length">Text Length</a></li>
-		<li><a href="#" onclick='jstoarray()'>JSON to Array</a></li>
-                <li><a href="http://jformslider.com"  target="_blank">jFormslider Plugin</a></li>
+                <li><a data-placement="bottom" href="#" class="tooltip_div" title="Notify something after some minutes" data-toggle="modal" data-target="#notify_me">Notify me</a></li>
+                <li><a data-placement="bottom" href="#" class="tooltip_div" title="Find length of Text" data-toggle="modal" data-target="#text_length">Text Length</a></li>
+                <li><a data-placement="bottom" href="#" onclick='jstoarray()' class="tooltip_div" title="Convert Json from code to array format">JSON to Array</a></li>
+                <li class="dropdown">
+                    <a id="dLabel" data-target="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Useful Links <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="dLabel">
+                        <li><a href="http://jformslider.com"  target="_blank">jFormslider Plugin</a></li>
+                         <li class=""> <a href="http://jformslider.com/jtextfill" target="_blank">jTextFill</a></li>
+                         <li class=""> <a href="http://jformslider.com/jformfill" target="_blank">jFormFill</a></li>
+                          <li class=""><a href="http://php.jformslider.com" target="_blank">PHP Tester Live</a></li>
+                        <li class=""> <a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>  
+                        <li class=""> <a href="http://cheef.github.io/jquery-ace/" target="_blank">Jquery Ace Editor</a></li> 
+                        <li class=""> <a href="http://jformslider.com/make_money_online" target="_blank">Make Money Online</a></li> 
+                        
+                    </ul>
+                </li>  
+                
+                
               </ul>
             </div>
           </div>
@@ -161,7 +177,7 @@ function download(){
                               
                           </li>
                           <li class=" pull-right">
-                              <i class="glyphicon glyphicon-cog" style="cursor: pointer" data-toggle="modal" data-target="#code_settings"></i>
+                              <i class="glyphicon glyphicon-cog tooltip_div" title="Settings for code editor" style="cursor: pointer" data-toggle="modal" data-target="#code_settings"></i>
                           </li>
                        </ul>
                         <div class="tab-content">
@@ -296,13 +312,13 @@ function download(){
                 </div>
                 <div class="modal-body">
                     <p>
-                        To Test code enter your code in textarea and blur or click run <br/>
+                        To Test code enter your code in textarea click result or click run <br/>
                     </p>
                     <p>Available options are save,download,delete codes</p>
-                    <p>Other options are phpinfo,textlength finder and nortifier</p>
-                    <p>Report Bugs and suggestions to phprunner@jformslider.com</p>
+                    <p>Other options are phpinfo,textlength finder and nortifier,json to array</p>
+                    <p>Report Bugs and suggestions to phptester@jformslider.com</p>
                     <p>
-                        Php Runner is developed by Harish U Warrier<br/>
+                        Php Tester is developed by Harish U Warrier<br/>
                         Email:harish@jformslider.com<br/>
                         
                         Website:<a href="http://jformslider.com" target="_blank">jformslider.com</a>
@@ -342,7 +358,7 @@ function download(){
               <div class="modal-content">
                 <div class="modal-header">
                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <h4>Code Settings</h4>
+                   <h4>Code Settings    <small>Code editor is from <a href="http://cheef.github.io/jquery-ace/">jquery ace</a>  </small></h4>
                 </div>
                 <div class="modal-body">
                     

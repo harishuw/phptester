@@ -1,5 +1,5 @@
-# phprunner
-Php runner is php tools used to test and run php,html,javascript codes
+# php tester
+Php tester is php tools used to test and run php,html,javascript codes
 
 ## Usage
 

@@ -1,1 +1,1 @@
-fdstfer
+<?php phpinfo() ?>

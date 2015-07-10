@@ -145,7 +145,7 @@ function download(){
                 <div class="col-md-12">
                     <form method="post" class="form-inline" role="form" id="runner_form">
                         <ul class="nav nav-tabs" role="tablist" id="mytabs">
-                            <li role="presentation" onclick="re_code()" class="active"><a href="#code" aria-controls="code" role="tab" data-toggle="tab">Code</a></li>
+                            <li role="presentation" class="active"><a href="#code" aria-controls="code" role="tab" data-toggle="tab">Code</a></li>
                           <li role="presentation" onclick="show_result()"><a href="#result_tab" aria-controls="result_tab" role="tab" data-toggle="tab">Result</a></li>
                           <li>
                             <div class="form-group">
